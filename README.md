@@ -16,28 +16,6 @@ BookRecommender è un'applicazione desktop basata su Java progettata per offrire
 - Persistenza dei dati: File CSV, gestiti tramite la libreria OpenCSV
 - Controllo di versione: Git
 
-# Struttura del progetto 📁
-BookRecommender/
-│
-├── src/main/java/
-│   ├── controller/            # Logica di controllo dell'applicazione
-│   ├── gui/auth/              # Gestione dell'interfaccia di autenticazione
-│   ├── gui/library/           # Interfaccia per gestione librerie personali
-│   ├── gui/menu/              # Menu principale per la navigazione
-│   ├── gui/model/             # Modelli dati utilizzati nella GUI
-│   ├── gui/rating/            # Interfaccia per valutare i libri
-│   ├── gui/search/            # Interfaccia per la ricerca di libri
-│   ├── model/                 # Classi che rappresentano il dominio (Utente, Libro, Libreria, Valutazione)
-│   ├── utility/               # Classi di utilità, inclusa la gestione dei file CSV
-│
-├── src/main/resources/        # Risorse come file CSV per utenti, libri, valutazioni, ecc.
-├── src/test/java/             # Test unitari
-├── target                     # Classpath del progetto
-├── bin                        # File jar eseguibile
-├── doc                        # Documentazione PDF
-├── pom.xml                    # File di configurazione Maven
-└── README.md                  # Descrizione del progetto
-
 # Requisiti di sistema 🖥️
 - Java: Versione 17 o superiore
 - Maven: Per la gestione delle dipendenze
