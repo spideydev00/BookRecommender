@@ -24,23 +24,23 @@ BookRecommender è un'applicazione desktop basata su Java progettata per offrire
 
 Installazione e Setup ⚙️
 1. Clonare il repository:
-## git clone https://github.com/spideydev00/BookRecommender.git
+``` git clone https://github.com/spideydev00/BookRecommender.git ```
 
 2. Importare il progetto in un IDE (Eclipse o Visual Studio Code).
 
 3. Costruire il progetto usando Maven:
-## mvn clean install
+``` mvn clean install ```
 
 4. Eseguire l'applicazione: Esegui la classe BookRecommender che contiene il metodo main per avviare l'applicazione.
 
 # Esecuzione 🏃‍♂️
 Per avviare l'applicazione, esegui la classe BookRecommender che avvierà l'interfaccia di registrazione o login dell'utente, o in alternativa apri il terminale nella cartella /bin del progetto ed esegui:
 
-## java -jar BookRecommender.jar
+``` java -jar BookRecommender.jar ```
 
 Gli utenti possono navigare nel sistema tramite il menu e accedere a funzionalità come la gestione delle librerie, la ricerca dei libri, la valutazione e la raccomandazione dei libri.
 
-# Dataset di test 📊
+# Dataset di test 📊
 Il progetto include file CSV di esempio nella cartella src/main/resources, tra cui:
 
 - Libri.csv: Contiene informazioni sui libri.
@@ -49,9 +49,9 @@ Il progetto include file CSV di esempio nella cartella src/main/resources, tra c
 - Librerie.csv: Contiene le librerie personali degli utenti.
 - LibriConsigliati.csv: Contiene i libri consigliati da ogni utente
 
-# Limitazioni 🚧
+# Limitazioni ✋🏻
 - Attualmente, il sistema di raccomandazioni si basa su regole semplici e non utilizza un algoritmo avanzato di machine learning.
 - Non c'è una vera e propria interfaccia di amministrazione per gestire i dati al di fuori dell'uso diretto dei file CSV.
 
-# Contributi 🛠️
+# Contributi 🛠️
 Ogni tipo di contributo è benvenuto! Si prega di aprire una "Issue" o inviare una "Pull Request" con miglioramenti o correzioni.
