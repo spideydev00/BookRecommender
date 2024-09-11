@@ -220,9 +220,9 @@ public class GestioneLibreria {
         
         for (int i = 2; i < 2 + MAX_LIBRI; i++) {
             if (!riga[i].isEmpty()) {
-                List<Libro> books = bookManager.cercaLibroPerTitolo(riga[i]);
-                if (!books.isEmpty()) {
-                    Libro libro = books.get(0);
+                List<Libro> libroTemp = bookManager.cercaLibroPerTitolo(riga[i]);
+                if (!libroTemp.isEmpty()) {
+                    Libro libro = libroTemp.get(0);
                     libri.add(bookManager.creaLibroDaRiga(new String[]{
                         libro.getTitolo(), libro.getAutore(), libro.getDescrizione(),
                         libro.getCategoria(), libro.getEditore(), libro.getPrezzo(),
